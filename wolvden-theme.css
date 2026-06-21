@@ -512,16 +512,20 @@ select.form-control {
     color: #102015 !important;
 }
 
-/* Activity, online members, friends list */
-.card-body,
-.card-body small,
+/* Online members, friends, activity feed */
+#sidebar a,
+#sidebar span,
+#sidebar small,
+#sidebar div,
+.card a,
+.card span,
+.card small,
+.card-body a,
 .card-body span,
-.card-body p,
-.card-body div,
-.media,
-.media-body,
-.text-muted,
-.small {
+.card-body small,
+.media-body a,
+.media-body span,
+.media-body small {
     color: #102015 !important;
 }
 
