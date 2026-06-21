@@ -132,19 +132,19 @@ i.fa.fa-plus.fa-lg,i.fa.fa-lg.fa-minus{
   background:#fff!important
 }
 div#progress-energy.progress-bar.bg-warning{
-    background:#6f8f62!important;
+    background:#9b59b6!important;
 }
 
 div#progress-hunger.progress-bar.bg-danger{
-    background:#4d6b52!important;
+    background:#f39c12!important;
 }
 
 div#progress-hp.progress-bar.bg-info{
-    background:#7fa06f!important;
+    background:#e74c3c!important;
 }
 
 div#progress-xp.progress-bar.bg-success{
-    background:#5d7d57!important;
+    background:#3498db!important;
 }
 
 div.progress-bar.bg-warning{
