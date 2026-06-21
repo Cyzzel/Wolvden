@@ -131,40 +131,49 @@ i.fa.fa-plus.fa-lg,i.fa.fa-lg.fa-minus{
 .progress{
   background:#fff!important
 }
+
+/* Leader Energy */
 div#progress-energy.progress-bar.bg-warning{
-    background:#9b59b6!important;
+    background:#8a6f9e!important;
 }
 
+/* Leader Hunger */
 div#progress-hunger.progress-bar.bg-danger{
-    background:#f39c12!important;
+    background:#c89a4a!important;
 }
 
+/* Leader HP */
 div#progress-hp.progress-bar.bg-info{
-    background:#e74c3c!important;
+    background:#c96a63!important;
 }
-
+/* Leader XP */
 div#progress-xp.progress-bar.bg-success{
-    background:#3498db!important;
+    background:#6f93b3!important;
 }
 
+/* Energy */
 div.progress-bar.bg-warning{
-    background:#6f8f62!important;
+    background:#8a6f9e!important;
 }
 
+/* Mood */
 div.progress-bar.bg-primary{
-    background:#4d6b52!important;
+    background:#5f89a8!important;
 }
 
+/* Hunger */
 div.progress-bar.bg-danger{
-    background:#7fa06f!important;
+    background:#c89a4a!important;
 }
 
+/* HP */
 div.progress-bar.bg-info{
-    background:#5d7d57!important;
+    background:#c96a63!important;
 }
 
+/* Survival */
 div.progress-bar.bg-success{
-    background:#6f8f62!important;
+    background:#b08a5a!important;
 }
 th.pt-1.pb-1{
   background:#18251b!important;
