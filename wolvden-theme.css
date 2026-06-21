@@ -512,31 +512,50 @@ select.form-control {
     color: #102015 !important;
 }
 
-/* Online members, friends, activity feed */
-#sidebar a,
-#sidebar span,
-#sidebar small,
-#sidebar div,
-.card a,
-.card span,
-.card small,
-.card-body a,
-.card-body span,
-.card-body small,
-.media-body a,
-.media-body span,
-.media-body small {
+
+/* =========================
+   SIDEBAR / ACTIVITY FIX
+   ========================= */
+
+/* Main sidebar text (friends, online, activity, beta, etc.) */
+.col-lg-3,
+.col-lg-3 * {
+    color: #102015 !important;  /* dark forest green */
+    opacity: 1 !important;
+}
+
+/* Muted / faint text override */
+.text-muted,
+small,
+.small {
+    color: #102015 !important;
+    opacity: 1 !important;
+}
+
+/* Links inside sidebar (chatbox, names, actions) */
+.col-lg-3 a,
+.col-lg-3 a:link,
+.col-lg-3 a:visited {
+    color: #1a2b1d !important;
+}
+
+/* Hover effect for links */
+.col-lg-3 a:hover {
+    color: #2f4a34 !important;
+}
+
+/* "Remove", "Beta", and other faint UI labels */
+.col-lg-3 .btn,
+.col-lg-3 button,
+.col-lg-3 .badge,
+.col-lg-3 .label {
     color: #102015 !important;
 }
 
-/* Fix faint / muted text in sidebar activity panels */
-.card-body .text-muted,
-.card-body small,
-.card-body span,
-.card-body div,
-.text-muted {
+/* Force readability inside cards in sidebar */
+.col-lg-3 .card,
+.col-lg-3 .card-body {
     color: #102015 !important;
-    opacity: 1 !important;
 }
 
 /* Dark green links */
