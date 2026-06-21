@@ -529,6 +529,16 @@ select.form-control {
     color: #102015 !important;
 }
 
+/* Fix faint / muted text in sidebar activity panels */
+.card-body .text-muted,
+.card-body small,
+.card-body span,
+.card-body div,
+.text-muted {
+    color: #102015 !important;
+    opacity: 1 !important;
+}
+
 /* Dark green links */
 a,
 a:link,
